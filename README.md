@@ -11,15 +11,15 @@ This project use Node.js with web application framwork.<br>
 **Installation**<br>
 init node package <br/>
 'npm init'
-import express
+import express <br>
 'npm install express'
 
 ## Code
 
 ### Json Part
-User data
+User data<br>
 
-'''json
+```json
 
 {
     "user1": {
@@ -32,30 +32,30 @@ User data
     }
 }
 
-'''
+```
 
 ### Javascript Part
 
-Import used function
+Import used function<br>
 
-'''javascript
+```javascript
 
     var express = require('express');
     var fs = require('fs')
 
-'''
+```
 
-Create request and response the request function
+Create request and response the request function<br>
 When request '/'
-'''javascript
+```javascript
 
     app.get("/", function (request, response) {
     response.send("Hello");
     })
     
-'''
+```
 When request '/users'
-'''javascript
+```javascript
 
     app.get("/users", function (request, response) {
     fs.readFile(__dirname + "/" + "user.json", "utf8", function (err, data) {
@@ -64,9 +64,9 @@ When request '/users'
     })
     })
 
-'''
+```
 Show Log when request and response
-'''javascript
+```javascript
 
     var server = app.listen(8081, function () {
     var host = server.address().address;
@@ -74,6 +74,6 @@ Show Log when request and response
     console.log("Host: %s:%s", host, port);
     })
 
-'''
+```
 
 ## Result
