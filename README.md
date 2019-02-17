@@ -10,8 +10,8 @@ Create Web Server that can response with following tag.<br>
 This project use Node.js with web application framwork.<br>
 **Installation**<br>
 init node package <br/>
-`npm init`
-import express <br>
+`npm init`<br>
+import express 
 `npm install express`
 
 ## Code
