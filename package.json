@@ -1,0 +1,24 @@
+{
+  "name": "JavascriptLearning",
+  "version": "1.0.0",
+  "description": "CGM276 Gameimplement",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sahapat/JavascriptLearning.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Sahapat/JavascriptLearning/issues"
+  },
+  "homepage": "https://github.com/Sahapat/JavascriptLearning#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
