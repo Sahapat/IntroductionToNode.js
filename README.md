@@ -11,10 +11,12 @@ This project use Node.js with web application framwork.<br>
 **Installation**<br>
 &ensp;init node package <br/>
 ```
-npm init ```
+npm init 
+```
 &ensp;import express<br> 
 ```
-npm install express ```
+npm install express
+```
 ## Code
 
 ### Json Part
