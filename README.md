@@ -5,15 +5,15 @@ CGM276 Gameimplement Let's start with javascript.
 
 ## Goal
 Create Web Server that can response with following tag.
-'/' response <b>Hello.</b>
-'/users' response <b> all users data as json format.</b>
+'/' response **Hello.**
+'/users' response **all users data as json format.**
 
 <hr>
 
 ## Dependencies
 This project use Node.js with web application framwork.
-<b> Installation</b>
-init node package
+**Installation**
+init node package <br/>
 'npm init'
 import express
 'npm install express'
