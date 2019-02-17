@@ -1,6 +1,5 @@
 # JavascriptLearning
-CGM276 Gameimplement Let's start with javascript.
-
+CGM276 Gameimplement >>Let's start with javascript.<<
 ## Goal
 Create Web Server that can response with following tag.<br>
 `/` response &emsp **Hello.** <br>
@@ -8,10 +7,12 @@ Create Web Server that can response with following tag.<br>
 
 ## Dependencies
 This project use Node.js with web application framwork.<br>
+<br>
 **Installation**<br>
+<hr>
 init node package <br/>
 `npm init`<br>
-import express 
+import express<br> 
 `npm install express`
 
 ## Code
@@ -46,7 +47,7 @@ Import used function<br>
 ```
 
 Create request and response the request function<br>
-When request `/`
+- When request `/`
 ```javascript
 
     app.get("/", function (request, response) {
@@ -54,7 +55,7 @@ When request `/`
     })
     
 ```
-When request `/users`
+- When request `/users`
 ```javascript
 
     app.get("/users", function (request, response) {
@@ -65,7 +66,7 @@ When request `/users`
     })
 
 ```
-Show Log when request and response
+- Show Log when request and response
 ```javascript
 
     var server = app.listen(8081, function () {
@@ -77,3 +78,6 @@ Show Log when request and response
 ```
 
 ## Result
+Test in Loop back IP at port 8081
+![/ request](https://github.com/Sahapat/JavascriptLearning/blob/master/DescriptionImages/ServerResponse_1.PNG)
+![/users request](https://github.com/Sahapat/JavascriptLearning/blob/master/DescriptionImages/ServerResponse_2.PNG)
