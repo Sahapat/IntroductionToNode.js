@@ -41,42 +41,41 @@ User data
 Import used function
 
 '''javascript
+
     var express = require('express');
     var fs = require('fs')
+
 '''
 
 Create request and response the request function
 When request '/'
 '''javascript
+
     app.get("/", function (request, response) {
     response.send("Hello");
     })
+    
 '''
 When request '/users'
 '''javascript
+
     app.get("/users", function (request, response) {
     fs.readFile(__dirname + "/" + "user.json", "utf8", function (err, data) {
         console.log(data);
         response.send(data);
     })
     })
+
 '''
 Show Log when request and response
 '''javascript
+
     var server = app.listen(8081, function () {
     var host = server.address().address;
     var port = server.address().port;
-
     console.log("Host: %s:%s", host, port);
     })
+
 '''
 
 ## Result
-
-<p float="left">
-    &ensp;
-    <img src="https://github.com/Sahapat/JavascriptLearning/blob/master/DescriptionImages/ServerResponse_1.PNG" width="420"/>
-    &emsp;
-    <img src="https://github.com/Sahapat/JavascriptLearning/blob/master/DescriptionImages/ServerResponse_2.PNG" width="420"/>
-</p>
-
