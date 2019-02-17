@@ -3,14 +3,14 @@ CGM276 Gameimplement Let's start with javascript.
 
 <hr>
 
-##Goal
+## Goal
 Create Web Server that can response with following tag.
 '/' response <b>Hello.
 '/users' response <b> all users data as json format.
 
 <hr>
 
-##Dependencies
+## Dependencies
 This project use Node.js with web application framwork.
 <b> Installation
 init node package
@@ -18,9 +18,9 @@ init node package
 import express
 'npm install express'
 
-##Code
+## Code
 
-###Json Part
+### Json Part
 User data
 
 '''json
@@ -36,7 +36,7 @@ User data
 }
 '''
 
-###Javascript Part
+### Javascript Part
 
 <b>Import used function
 
@@ -71,7 +71,7 @@ When request '/users'
     })
 '''
 
-##Result
+## Result
 
 <p float="left">
     &ensp;
