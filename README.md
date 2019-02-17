@@ -9,12 +9,16 @@ Create Web Server that can response with following tag.<br>
 This project use Node.js with web application framwork.<br>
 <br>
 **Installation**<br>
-<hr>
-init node package <br/>
-`npm init`<br>
-import express<br> 
-`npm install express`
+&ensp;init node package <br/>
+```
+npm init
 
+```
+&ensp;import express<br> 
+```
+npm install express
+
+```
 ## Code
 
 ### Json Part
