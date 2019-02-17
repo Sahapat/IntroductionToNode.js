@@ -2,8 +2,8 @@
 CGM276 Gameimplement (Let's start with javascript).
 ## Goal
 Create Web Server that can response with following tag.<br>
-`/` response &emsp; **Hello.** <br>
-`/users` response &emsp; **all users data as json format.** <br>
+`/` &emsp;response &emsp; **Hello.** <br>
+`/users` &emsp;response &emsp; **all users data as json format.** <br>
 
 ## Dependencies
 This project use Node.js with web application framwork.<br>
