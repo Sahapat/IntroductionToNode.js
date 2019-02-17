@@ -5,14 +5,14 @@ CGM276 Gameimplement Let's start with javascript.
 
 ## Goal
 Create Web Server that can response with following tag.
-'/' response <b>Hello.
-'/users' response <b> all users data as json format.
+'/' response <b>Hello.</b>
+'/users' response <b> all users data as json format.</b>
 
 <hr>
 
 ## Dependencies
 This project use Node.js with web application framwork.
-<b> Installation
+<b> Installation</b>
 init node package
 'npm init'
 import express
@@ -38,14 +38,14 @@ User data
 
 ### Javascript Part
 
-<b>Import used function
+Import used function
 
 '''javascript
     var express = require('express');
     var fs = require('fs')
 '''
 
-<b>Create request and response the request function
+Create request and response the request function
 When request '/'
 '''javascript
     app.get("/", function (request, response) {
@@ -61,7 +61,7 @@ When request '/users'
     })
     })
 '''
-<b>Show Log when request and response
+Show Log when request and response
 '''javascript
     var server = app.listen(8081, function () {
     var host = server.address().address;
