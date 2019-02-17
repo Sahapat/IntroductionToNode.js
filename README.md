@@ -1,5 +1,5 @@
-# JavascriptLearning
-CGM276 Gameimplement >>Let's start with javascript.<<
+# Javascript-Learning-
+CGM276 Gameimplement (Let's start with javascript).
 ## Goal
 Create Web Server that can response with following tag.<br>
 `/` response &emsp **Hello.** <br>
