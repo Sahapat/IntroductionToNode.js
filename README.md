@@ -78,6 +78,12 @@ Create request and response the request function<br>
 ```
 
 ## Result
-Test in Loop back IP at port 8081
-![/ request](https://github.com/Sahapat/JavascriptLearning/blob/master/DescriptionImages/ServerResponse_1.PNG)
-![/users request](https://github.com/Sahapat/JavascriptLearning/blob/master/DescriptionImages/ServerResponse_2.PNG)
+&ensp;Test in Loop back IP at port 8081
+<p float="left">
+    &ensp;
+    <img src="https://github.com/Sahapat/JavascriptLearning/blob/master/DescriptionImages/ServerResponse_1.PNG" alt="/ request" width="420"/>
+    &emsp;
+    <img src="https://github.com/Sahapat/JavascriptLearning/blob/master/DescriptionImages/ServerResponse_2.PNG" alt="/users request"width="420"/>
+</p>
+&ensp;Server Log
+&ensp;![Server Log](https://github.com/Sahapat/JavascriptLearning/blob/master/DescriptionImages/ServerLog.PNG)
