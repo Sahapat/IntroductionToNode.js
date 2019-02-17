@@ -1,14 +1,10 @@
 # JavascriptLearning
 CGM276 Gameimplement Let's start with javascript.
 
-<hr>
-
 ## Goal
 Create Web Server that can response with following tag.
-'/' response **Hello.**
-'/users' response **all users data as json format.**
-
-<hr>
+'/' response **Hello.** <br>
+'/users' response **all users data as json format.** <br>
 
 ## Dependencies
 This project use Node.js with web application framwork.
