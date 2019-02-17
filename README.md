@@ -3,16 +3,16 @@ CGM276 Gameimplement Let's start with javascript.
 
 ## Goal
 Create Web Server that can response with following tag.<br>
-'/' response **Hello.** <br>
-'/users' response **all users data as json format.** <br>
+`/` response &emsp **Hello.** <br>
+`/users` response &emsp **all users data as json format.** <br>
 
 ## Dependencies
 This project use Node.js with web application framwork.<br>
 **Installation**<br>
 init node package <br/>
-'npm init'
+`npm init`
 import express <br>
-'npm install express'
+`npm install express`
 
 ## Code
 
@@ -46,7 +46,7 @@ Import used function<br>
 ```
 
 Create request and response the request function<br>
-When request '/'
+When request `/`
 ```javascript
 
     app.get("/", function (request, response) {
@@ -54,7 +54,7 @@ When request '/'
     })
     
 ```
-When request '/users'
+When request `/users`
 ```javascript
 
     app.get("/users", function (request, response) {
