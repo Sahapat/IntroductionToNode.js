@@ -11,7 +11,7 @@ This project use Node.js with web application framwork.<br>
 **Installation**<br>
 &ensp;init node package <br/>
 ```
-npm init 
+npm init -y
 ```
 &ensp;import express<br> 
 ```
